@@ -1,0 +1,24 @@
+Depois de instalar o python - iniciar instalação do tesseract.
+
+Não esquecer de incluir suporte para linguagem portuguese.
+
+Logo na instalação tem a opção de linguagem de leitura dos documentos
+
+Depois de instalar com as opções de suporte a lingua portuguesa; 
+- Copie a pasta de onde o tesseract foi instalado
+
+- aperte a tecla windowns + r e digite sysdm.cpl e ok
+
+- Vai abrir propriedades do sistema, va em avançado; variáveis de ambiente;
+no quadro de variáveis do sistema procure por path; editar; 
+coloque um ponto e virgula e copie a localização do tesseract que copiou
+anteriormente(sem espaço).
+
+- abra o cmd e digite tesseract e enter.
+
+Se aparecer a lista de alguns comandos então foi instalados com sucesso!
+
+continuando no cmd faça os comandos:
+pip install pytesseract - Espere instalar o tesseract.
+pip install numpy - Espere instalar o numpy 
+pip install pillow - Espere instalar o pillow (talvez ja esteja instalado)
